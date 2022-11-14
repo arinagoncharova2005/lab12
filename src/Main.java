@@ -2,7 +2,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.file.AccessDeniedException;
-
+//ibihiuby7y
 public class Main {
     public static void main(String[] args) {
         try (FileInputStream in = new FileInputStream("/Users/arinagoncharova/IdeaProjects/lab12/src/input");
@@ -15,7 +15,7 @@ public class Main {
         }
         catch(IOException ex){
             System.out.println(ex.getMessage());
-            //dfgdgdgdg
+
         }
     }
 }
